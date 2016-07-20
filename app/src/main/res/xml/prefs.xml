@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Settings page reads from this file-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory>
+        <com.design.senior.realmaster.MyDialogPreferences
+            android:summary="Between 1-15 minutes"
+            android:key="sessionLength"
+            android:title="Choose session length"
+            android:positiveButtonText="OK"
+            android:textColor="#FF000000" />
+
+        <!--These preferences impose a time limit on how long a patient has to press a button -->
+        <CheckBoxPreference
+            android:title="Enable time limit"
+            android:summary="Maximum time to press button"
+            android:key="timed" />
+        <EditTextPreference
+            android:title="Set time limit for button press"
+            android:key="timeLimit"
+            android:dependency="timed"
+            android:numeric="decimal" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:baselineAligned="false"
+    android:id="@+id/relativeLayout"
+    android:keepScreenOn="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:onClick="buttonPressed"
+    android:orientation="vertical">
+</RelativeLayout>

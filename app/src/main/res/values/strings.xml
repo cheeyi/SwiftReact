@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- APP USAGE -->
+    <string name="app_name">SwiftReact</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pvced_title">PVCED</string>
+    <string name="application_title">Master Application</string>
+    <string name="start_progress_activity">Progress</string>
+    <string name="start_countdown_activity">Start</string>
+    <string name="session_start">SESSION BEGINS IN:</string>
+    <string name="session_end">SESSION ENDS IN:</string>
+    <string name="title_activity_session">SessionActivity</string>
+    <string name="title_activity_complete">CompleteActivity</string>
+    <string name="complete">SESSION COMPLETE</string>
+    <string name="reaction_time">AVERAGE REACTION TIME:</string>
+    <string name="repeat">Repeat Session</string>
+    <string name="exit">Exit To Main Menu</string>
+    <string name="quit">Quit</string>
+    <string name="session_stop">Stop</string>
+    <string name="minutes_picker">Minutes</string>
+    <string name="seconds_picker">Seconds</string>
+
+    <!-- COLORS -->
+    <color name="dark_primary_green">#FF388E3C</color>
+    <color name="primary_green">#FF4CAF50</color>
+    <color name="lighter_primary_green">#EF4CAF50</color>
+    <color name="accent_light_green">#FF8BC34A</color>
+    <color name="light_primary_green">#FFC8E6C9</color>
+    <color name="primary_black_text">#FF212121</color>
+    <color name="secondary_grey_text">#FF727272</color>
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="divider_grey_color">#FFB6B6B6</color>
+    <color name="text_nice_green">#FFEAFDE6</color>
+
+    <!-- BUTTON STRINGS BELOW -->
+    <!-- activity titles -->
+    <string name="title_activity_button_default">DefaultButtonActivity</string>
+    <string name="title_activity_button_connected">ConnectedButtonActivity</string>
+    <string name="title_activity_button_session">SessionButtonActivity</string>
+    <string name="title_activity_button_complete">CompleteButtonActivity</string>
+
+    <!-- default activity strings -->
+    <string name="not_connected_text">Not\nConnected</string>
+
+    <!-- connected activity strings -->
+    <string name="connected_text">Connected</string>
+
+    <!-- complete activity strings -->
+    <string name="complete_text">Session\nComplete</string>
+
+    <!-- Bluetooth communication strings -->
+    <string name="turn_on">TURN ON</string>
+    <string name="pressed">PRESSED</string>
+    <string name="missed">MISSED</string>
+    <string name="picture">PICTURE</string>
+    <string name="picture_correct">CORRECT</string>
+    <string name="picture_incorrect">INCORRECT</string>
+    <string name="button">BUTTON</string>
+    <string name="again">AGAIN</string>
+    <string name="btexit">EXIT</string>
+
+</resources>

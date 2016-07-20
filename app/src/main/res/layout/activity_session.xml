@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gradient"
+    android:baselineAligned="false"
+    android:id="@+id/relativeLayout"
+    android:keepScreenOn="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="222dp"
+        android:layout_height="350dp"
+        android:id="@+id/countdownImage"
+        android:layout_gravity="center"
+        android:src="@drawable/countdown"
+        android:background="@null" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="75sp"
+        android:text="60"
+        android:textColor="#eafde6"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/session_end"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="#eafde6" />
+
+    <ImageButton
+        android:layout_width="126dp"
+        android:layout_height="199dp"
+        android:id="@+id/stopButton"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/stop"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:onClick="onFinish"
+        android:layout_marginBottom="-15dp" />
+
+</FrameLayout>

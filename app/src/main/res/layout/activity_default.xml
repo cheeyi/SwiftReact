@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gradient"
+    android:baselineAligned="false"
+    android:id="@+id/frameLayout"
+    android:keepScreenOn="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:id="@+id/startButton"
+        android:scaleType="fitCenter"
+        android:src="@drawable/start_button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:onClick="startCountdownActivity"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@null"
+        android:focusableInTouchMode="false" />
+
+    <ImageButton
+        android:layout_width="153dp"
+        android:layout_height="238dp"
+        android:id="@+id/settingsButton"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/settings_button"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:onClick="startSettingsActivity" />
+
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Design choices: max/min-->
+    <integer name="maximum_length">15</integer>
+    <integer name="minimum_length">1</integer>
+
+
+</resources>
